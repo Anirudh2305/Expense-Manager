@@ -18,6 +18,11 @@
 
     <color name="orange">#FFA726</color>
     <color name="green">#66BB6A</color>
+    <color name="darkGreen">#008000</color>
     <color name="red">#EF5350</color>
     <color name="lightBlue">#29B6F6</color>
+
+    <color name="blue1">#B7E9F7</color>
+    <color name="blue2">#ADD8E6</color>
+    <color name="blue3">#92DFF3</color>
 </resources>

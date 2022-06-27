@@ -13,4 +13,24 @@
     <string name="cheque">Cheque: Rs %1$.2f</string>
     <string name="credit">Credit: Rs %1$.2f</string>
     <string name="nb">Rs %1$.2f</string>
+    <string name="item_1">Item 1</string>
+    <string name="date">date</string>
+    <string name="upcoming_transactions">UPCOMING TRANSACTIONS</string>
+    <string name="add">add</string>
+    <string name="set_reminder">Reminder</string>
+    <string name="month_name">Month</string>
+    <string name="allview">View All</string>
+    <string name="amount_saved">Amount Saved</string>
+    <string name="amount_spent">Amount Spent</string>
+    <string name="transactions_this_month">Transactions this Month</string>
+    <string name="type">\u2022 %1$.2s</string>
+    <string name="transaction_name">Transaction Name</string>
+    <string name="amount">Amount</string>
+    <string name="select_date">Select Date</string>
+    <string name="recurring_transaction">Recurring Transaction</string>
+    <string name="from_date">From Date</string>
+    <string name="to_date">To Date</string>
+    <string name="expense">Expense</string>
+    <string name="income">income</string>
+    <string name="amountDisp">+ %1$.2f</string>
 </resources>

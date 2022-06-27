@@ -1,13 +1,14 @@
-package com.example.expensemanager
+package com.example.expensemanager.ui
 
+import android.content.Context
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
 import androidx.core.widget.doOnTextChanged
-import com.google.android.material.textfield.TextInputEditText
+import androidx.navigation.fragment.findNavController
+import com.example.expensemanager.R
 import kotlinx.android.synthetic.main.fragment_on_boarding.*
 
 class OnBoarding : Fragment() {
@@ -23,6 +24,25 @@ class OnBoarding : Fragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
 
+        val sharedPref = activity?.getSharedPreferences("onBoardExpenseManager",Context.MODE_PRIVATE)
+        val openedBefore:Boolean? = sharedPref?.getBoolean("Fav_key",false)
+
+        if(!openedBefore!!)
+        {
+            firstTime()
+            with(sharedPref.edit()){
+                putBoolean("Fav_key",true)
+                commit()
+            }
+        }
+        else{
+            findNavController().navigate(
+                OnBoardingDirections.actionOnBoardingToFrontScreenFragment())
+        }
+
+    }
+
+    private fun firstTime(){
         name_text.doOnTextChanged { text, _, _, _ ->
             if(text!!.isEmpty())
                 name_layout.error = "This is a required field"
@@ -38,11 +58,12 @@ class OnBoarding : Fragment() {
         }
 
         cont_button.setOnClickListener {
-            // make sure ki null na ho .
+            findNavController().navigate(
+                OnBoardingDirections.actionOnBoardingToFrontScreenFragment()
+            )
         }
     }
-
-    }
+ }
 
 
 

@@ -3,10 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/vanir/AndroidStudioProjects/ExpenseManager/app/src/main/res/drawable/custom_progress_bg.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/vanir/AndroidStudioProjects/ExpenseManager/app/src/main/res/drawable/custom_spinner.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/vanir/AndroidStudioProjects/ExpenseManager/app/src/main/res/drawable/ic_baseline_arrow_forward_24.xml" value="0.19583333333333333" />
         <entry key="..\:/Users/vanir/AndroidStudioProjects/ExpenseManager/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/vanir/AndroidStudioProjects/ExpenseManager/app/src/main/res/layout/custom_prog_bar.xml" value="0.22" />
+        <entry key="..\:/Users/vanir/AndroidStudioProjects/ExpenseManager/app/src/main/res/layout/fragment_add_transaction.xml" value="0.22" />
+        <entry key="..\:/Users/vanir/AndroidStudioProjects/ExpenseManager/app/src/main/res/layout/fragment_front_screen.xml" value="0.1796875" />
         <entry key="..\:/Users/vanir/AndroidStudioProjects/ExpenseManager/app/src/main/res/layout/fragment_home_screen.xml" value="0.22" />
+        <entry key="..\:/Users/vanir/AndroidStudioProjects/ExpenseManager/app/src/main/res/layout/fragment_month_wise.xml" value="0.22" />
+        <entry key="..\:/Users/vanir/AndroidStudioProjects/ExpenseManager/app/src/main/res/layout/fragment_monthly.xml" value="0.1796875" />
         <entry key="..\:/Users/vanir/AndroidStudioProjects/ExpenseManager/app/src/main/res/layout/fragment_on_boarding.xml" value="0.1796875" />
+        <entry key="..\:/Users/vanir/AndroidStudioProjects/ExpenseManager/app/src/main/res/layout/list_item.xml" value="0.22" />
+        <entry key="..\:/Users/vanir/AndroidStudioProjects/ExpenseManager/app/src/main/res/layout/month_cards.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/vanir/AndroidStudioProjects/ExpenseManager/app/src/main/res/layout/months.xml" value="0.1796875" />
       </map>
     </option>
   </component>
